@@ -72,7 +72,6 @@ httpx==0.27.0
 idna==3.6
 importlib_metadata==7.1.0
 itsdangerous==2.2.0
-<<<<<<< HEAD
 Jinja2==3.1.3
 keras==3.4.1
 kiwisolver==1.4.5
@@ -82,12 +81,6 @@ lxml==5.1.0
 Mako==1.3.3
 Markdown==3.6
 markdown-it-py==3.0.0
-=======
-Django==5.1.2
-Jinja2==3.1.4
-lxml==5.3.0
-manage.py==0.2.10
->>>>>>> 4ea950544709a610cd413cd85a5e20539a8f1231
 MarkupSafe==2.1.5
 matplotlib==3.9.2
 mdurl==0.1.2
@@ -147,7 +140,6 @@ selenium==4.21.0
 setuptools==69.0.3
 simple-websocket==1.0.0
 six==1.16.0
-<<<<<<< HEAD
 sniffio==1.3.0
 sortedcontainers==2.4.0
 SQLAlchemy==2.0.29
@@ -178,11 +170,3 @@ yagmail==0.15.293
 zipp==3.18.2
 zope.event==5.0
 zope.interface==6.4.post0
-=======
-sqlparse==0.5.1
-tenacity==9.0.0
-typing_extensions==4.12.2
-tzdata==2024.1
-urllib3==2.2.2
-Werkzeug==3.0.4
->>>>>>> 4ea950544709a610cd413cd85a5e20539a8f1231
