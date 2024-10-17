@@ -1,5 +1,6 @@
 idna==3.7
 itsdangerous==2.2.0
+Django==5.1.2
 Jinja2==3.1.4
 lxml==5.3.0
 manage.py==0.2.10
