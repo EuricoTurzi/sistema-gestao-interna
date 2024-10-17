@@ -3,7 +3,6 @@ from django.db.models.query import QuerySet
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
 from . import models, forms
 from django.urls import reverse_lazy
-from rolepermissions.decorators import has_role_decorator
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
 class produtoviews(PermissionRequiredMixin, LoginRequiredMixin, ListView):

@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'tuper',
     'faturamento',
     'home',
-    'rolepermissions',
     'login',
     'requisicao',
     'manutencaolist',
@@ -68,7 +67,6 @@ INSTALLED_APPS = [
     't42', 
     'pparada', 
     'ticket', 
-    
 
 ]
 

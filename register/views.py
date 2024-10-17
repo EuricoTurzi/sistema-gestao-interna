@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect 
 from django.contrib.auth import authenticate, login as auth_login 
 from django.contrib.auth.models import User 
-from rolepermissions.roles import assign_role 
 
 def login(request): 
     if request.method == 'POST':
