@@ -83,7 +83,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'app.urls'
 
-ALLOWED_HOSTS = ['10.0.0.227', 'localhost', '10.0.0.196']
+ALLOWED_HOSTS = ['sistema-inteligencia.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://sistema-inteligencia.up.railway.app']
 
 TEMPLATES = [
     {
@@ -137,6 +138,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DATE_INPUT_FORMATS = ['%d/%m/%Y']
